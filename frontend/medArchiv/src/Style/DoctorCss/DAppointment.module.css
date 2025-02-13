@@ -1,0 +1,109 @@
+.card{
+    background-color: rgb(217, 217, 217);
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    border: 1px solid black;
+    /* box-shadow: 5px 5px 10px rgb(66, 65, 65); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 5rem; */
+    /* margin-left: 3rem; */
+    height: 23rem;
+
+}
+.img{
+    width: 6rem;
+}
+.namesection{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.message{
+    margin: 0.5rem;
+    width: 11rem;
+    text-align: center;
+    font-size: smaller;
+}
+
+
+.buttonSection{
+    /* background-color: rgb(240, 15, 15); */
+    display: flex;
+    flex-wrap: wrap;
+    width: 11rem;
+    flex-direction: column;
+    justify-content:space-between;
+    /* padding-top: 0rem; */
+}
+.selectsection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 11rem;
+    justify-content:space-around;
+    align-items: center;
+    /* background-color: red; */
+}
+.Appointbtn{
+    background-color:rgba(2, 143, 2, 0.97);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight:bold;
+    color: white;
+    border: 0.1rem solid rgb(68, 66, 66);
+    /* width: 70%; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 11rem;
+}
+.Btn{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    width: 100%;
+}
+.selectTime{
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    width: 6rem;
+    font-weight:bold;
+    border: 0.1rem solid rgb(193, 186, 186);
+    color: black;
+    background-color: aliceblue;
+    color: black;
+}
+.selectTime option{
+    color: rgb(0, 0, 0);
+    background-color: rgba(216, 220, 216, 0.722);
+    font-weight: bold;
+}
+.selectTime:checked{
+    background-color: beige;
+    color: blue;
+}
+
+.view{
+    padding: 0.55rem;
+    font-weight:bold;
+    border: 0.1rem solid rgb(193, 186, 186);
+    border-radius: 0.3rem;
+    /* background-color: rgba(255, 0, 0, 0.885); */
+    background-color: rgb(207, 80, 26);
+    color: white;
+    padding-left:1rem;
+    padding-right: 1rem;
+}

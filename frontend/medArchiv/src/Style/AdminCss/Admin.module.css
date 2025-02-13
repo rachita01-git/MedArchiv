@@ -1,0 +1,76 @@
+.container {
+    padding: 24px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: rgb(32, 152, 196);
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  #status {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.875rem;
+  }
+ 
+  .Pending {
+    background-color: #fbbf24; /* Yellow */
+  }
+  
+  .Approved {
+    background-color: #22c55e; /* Green */
+  }
+  
+  .Rejected {
+    background-color: #ef4444; /* Red */
+  }
+  
+  .actions {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+  }
+  
+  .button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left:2rem;
+    width: 7rem;
+  }
+  
+  #approve {
+    background-color: #22c55e;
+  }
+  
+  #reject {
+    background-color: #ef4444;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  .block{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+  }

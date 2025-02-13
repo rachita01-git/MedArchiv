@@ -1,0 +1,309 @@
+.DoctorDetail{
+    /* background-color: rgb(255, 255, 255); */
+    margin: 0rem;
+    padding: 0rem;
+    /* height: 100vh; */
+    display: flex;
+    /* width: 80%; */
+    float: right;
+    justify-content: center;
+    /* align-items:flex-start; */
+    /* align-content: center; */
+    flex-wrap: wrap; 
+    font-family: "Poppins", serif;
+    font-size:smaller;
+    /* align-items: center;  */
+    margin: 2rem;   
+    /* margin-top: 5rem; */
+    /* margin-left: 18%; */
+    /* flex-direction: ; */
+    /* background-color: aquamarine; */
+}
+.card{
+    background-color: rgb(217, 217, 217);
+    padding: 1.5rem;
+    /* margin-right: 1.5rem; */
+    padding-top: 0rem;
+    border-radius: 0.5rem;
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+    display: flex;
+    /* flex:1; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 55%;
+    /* background-color: aqua; */
+    /* flex:1; */
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin: 2rem;
+    width: 31%;
+    /* padding: 0.5rem; */
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: rgb(48, 49, 49); */
+    background-color: rgb(236, 236, 233);
+    /* margin-right: 1rem; */
+    padding-right:1rem;
+    padding-left: 1rem;
+    width: 52%;
+    border-radius: 1rem;
+    padding: 0.5rem 1.2rem;
+    /* padding-bottom: 2rem; */
+}
+.card2 p{
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: left;
+}
+.sectionone{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* background-color: antiquewhite; */
+    margin: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    
+}
+.img{
+    width: 8rem;
+}
+.moreinfo1{
+    /* margin-top: 0.9rem; */
+    background-color: rgb(217, 217, 217);
+    border: 1px solid rgb(94, 93, 93);
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+    /* margin: 2rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 0rem;
+    /* margin-left: 2rem; */
+    /* flex:1; */
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    /* height: 100%; */
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.info{
+    background-color: rgb(236, 236, 233);
+    border-radius: 1rem;
+    /* box-shadow: 5px 5px 10px rgb(66, 65, 65); */
+    padding: 1rem 0rem;
+    
+}
+.moreinfo1 table{
+    /* background-color: rgb(179, 17, 17); */
+/* padding: 0.5rem; */
+border-radius: 1rem;
+/* border-top: 19rem; */
+/* margin-bottom: 0rem; */
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.moreinfo1 table tbody tr td{
+padding-top:0.1rem;
+width: 100%;
+/* background-color: blueviolet; */
+
+}
+
+.moreinfo1 table tbody{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction:column;    
+    flex-wrap: wrap;
+    }
+    .moreinfo1 table tbody tr{
+        /* background-color: rgb(81, 83, 83); */
+        /* width: 15%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+
+        }
+h4{
+    /* background-color: aqua; */
+    line-height: 2rem;
+    font-size:medium;
+    /* margin-left: 1rem; */
+    color: rgb(6, 167, 216);
+    
+
+}
+.heading{
+    margin-left: 1.5rem; 
+    /* margin-bottom: 0.1rem; */
+}
+.namesection{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* background-color: aqua; */
+    line-height: 0.8rem;
+}
+.namesection h3{
+    /* background-color: azure; */
+    font-size: large;
+   
+}
+.message{
+    margin: 0.5rem;
+    width: 11rem;
+    text-align: center;
+    font-size:medium;
+    /* background-color: blanchedalmond; */
+}
+
+
+.buttonSection{
+    /* background-color: rgb(240, 15, 15); */
+    display: flex;
+    flex-wrap: wrap;
+    width: 11rem;
+    flex-direction: column;
+    justify-content:space-between;
+    /* padding-top: 0rem; */
+}
+
+.Appointbtn{
+    background-color:rgba(2, 143, 2, 0.97);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight:bold;
+    color: white;
+    border: 0.1rem solid rgb(68, 66, 66);
+    width: 70%;
+}
+.Btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.chatbox{
+    /* background-color:brown; */
+    background-color: rgb(236, 236, 233);
+    /* margin-left:7%; */
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+    height: 20.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex:2; */
+    /* margin: 1.2rem; */
+    width: 100%;
+    border: 2px solid black;
+    /* box-shadow: 5px 5px 15px black; */
+    margin:1.8rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+    height: 50%;
+    }
+    
+    .chatmessage{
+    background-color:rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    height: 90%;
+    display: flex;
+    justify-content:right;
+    /* align-items: center; */
+    /* overflow-y:scroll; */
+    }
+    .person2{
+        float:right;
+        text-align:right;
+        margin-top: 2rem;
+        width: 100%;
+        font-size:large
+        /* background-color: blue; */
+       
+       
+    }
+    .person2div{
+       
+    width: 70%;
+     text-align: right;
+     float: right;
+     padding: 1rem;
+     /* background-color: aqua; */
+     display: flex;
+     justify-content:end;
+     align-items: end;
+    
+    
+    }
+    .inputdiv{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* flex-wrap: wrap; */
+    }
+    .inputdiv input{
+    width: 100%;
+    /* background-color: aqua; */
+    border-radius: 1rem;
+    font-size: large;
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: right;
+    height: 3.5rem;
+    padding-right: 1rem;
+
+    }
+    .arrowimg{
+        /* margin-top: 0.5rem; */
+    width: 4rem;
+    padding-left: 0.5rem;
+    
+    }
+      
+  .rate{
+    width: 1.5rem;
+  }
+
+  .btn{
+    background-color: aqua;
+    /* padding: 1re; */
+    font-weight: bold;
+    background-color: green;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    color: white;
+    font-size:large;
+  }

@@ -1,0 +1,92 @@
+.findDoctor{
+    /* background-color: rgb(255, 255, 255); */
+    margin: 3rem;
+    padding: 0rem;
+    /* height: 100vh; */
+    display: flex;
+    width: 80%;
+    float: right;
+    /* justify-content: center;*/
+    align-items:flex-start;
+    /* align-content: center; */
+    flex-wrap: wrap; 
+    font-family: "Poppins", serif;
+    font-size:smaller;
+    /* align-items: center;  */
+    /* margin: 2rem;    */
+    /* margin-top: 5rem; */
+    /* margin-left: 18%; */
+    /* background-color: aqua; */
+    /* flex-direction: row; */
+}
+.card{
+    background-color: rgb(217, 217, 217);
+    padding: 2rem;
+    margin: 0.8rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.img{
+    width: 8rem;
+}
+.namesection{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* background-color: aqua; */
+    line-height: 0.8rem;
+}
+.namesection h3{
+    /* background-color: azure; */
+    font-size: large;
+   
+}
+.message{
+    margin: 0.5rem;
+    width: 11rem;
+    text-align: center;
+    font-size:medium;
+    /* background-color: blanchedalmond; */
+}
+
+
+.buttonSection{
+    /* background-color: rgb(240, 15, 15); */
+    display: flex;
+    flex-wrap: wrap;
+    width: 11rem;
+    flex-direction: column;
+    justify-content:space-between;
+    /* padding-top: 0rem; */
+}
+
+.Appointbtn{
+    background-color:rgba(2, 143, 2, 0.97);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight:bold;
+    color: white;
+    border: 0.1rem solid rgb(68, 66, 66);
+    width: 70%;
+}
+.Btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}

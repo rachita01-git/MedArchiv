@@ -1,0 +1,74 @@
+
+.h2{
+    margin-bottom:1rem ;
+    color: rgb(4, 140, 219);
+}
+.table{
+background-color: rgb(217, 217, 217);
+border: 1px solid black;
+border-radius: 1rem;
+box-shadow: 5px 5px 10px rgb(66, 65, 65);
+padding-bottom: 1rem;
+}
+.tr th{
+/* background-color: aqua; */
+padding: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+text-align: center;
+/* border: 2px solid red; */
+}
+
+.data{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.data td {
+    text-align: center;
+    padding: 0.4rem;
+    /* border: 2px solid red; */
+}
+.complete{
+    /* background-color: rgb(236, 167, 216); */
+    /* color:rgb(221, 16, 228) */
+    color: rgb(4, 140, 219);
+    font-weight: bold;
+  
+}
+.scheduled{
+    /* background-color: aqua; */
+    color:green;
+    font-weight: bold;
+}
+.pending{
+    font-weight: bold;
+    color:rgb(250, 144, 6);
+}
+
+
+.completebtn{
+    background-color: rgb(4, 140, 219);
+    font-weight: bold;
+    color: rgb(232, 234, 236);
+    border: 0rem;
+}
+.scheduledbtn{
+    background-color: green;
+    font-weight: bold;
+    color: rgb(232, 234, 236);
+    border: 0rem;
+}
+.pendingbtn{
+    font-weight: bold;
+    background-color: rgb(250, 144, 6);
+    color: rgb(232, 234, 236);
+    border: 0rem;
+}
+
+
+#btn{
+    width: 4rem;
+    border-radius: 0.5rem;
+    height: 1.8rem;
+}

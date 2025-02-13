@@ -1,0 +1,249 @@
+.DoctorAppointmentDetail{
+    /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  margin: 2rem;
+  margin-bottom: 0rem;
+  flex-direction: row;
+  justify-content:space-evenly;
+  /* margin-left: 18%; */
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: aquamarine; */
+
+}
+.message{
+    background-color: rgb(236, 236, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+    /* margin-bottom: 1rem; */
+    width: 100%;
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+    /* background-color: aqua; */
+}
+.img{
+    width: 8rem;
+}
+.namecard{
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    /* box-shadow: 5px 5px 10px rgb(66, 65, 65); */
+}
+.messagebox{
+    background-color:white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid rgb(134, 132, 132);
+    border-radius: 1rem;
+    width: 30rem;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    /* box-shadow: 5px 5px 10px rgb(66, 65, 65); */
+    
+
+}
+.message p{
+    padding: 1rem;
+    font-size:0.9rem;
+    text-align:left;
+    padding-top: 0rem;
+}
+.message span{
+    padding: 1rem;
+    font-size:0.9rem;
+    text-align: left;
+    /* background-color: aqua; */
+    margin: 0rem;
+    padding: 0rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    padding-left: 1rem;
+    color: rgb(6, 167, 216);
+    
+}
+.sectionone{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 1.5rem;
+    /* width: 60%; */
+    
+
+}
+.details{
+    /* background-color: rgba(202, 123, 3, 0.782); */
+    border: 2px solid rgb(94, 93, 93);
+    /* margin: 2rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+    /* margin-left: 2rem; */
+    margin-top: 1rem;
+    /* height: 65%;     */
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    background-color: rgba(236, 236, 233, 0.828);
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+}
+.details h4{
+    /* background-color: aqua; */
+    line-height: 2.7rem;
+    font-size:medium;
+    color: rgb(6, 167, 216);
+
+}
+.sectionone{
+    display: flex;
+    flex-direction: column;
+}
+.details table tr{
+    /* background-color: aqua; */
+    /* font-size: larger; */
+    /* font-weight:500; */
+    text-align: center;
+    /* margin-right: 10rem; */
+}
+td{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    /* text-align: center; */
+}
+.sectiontwo{
+    /* background-color: aqua; */
+    /* margin-top: 2rem; */
+    display: flex;
+    /* justify-content:space-evenly; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 33%; */
+    /* margin-left: 2rem; */
+    margin-top: 2.6rem;
+    height: 85%;
+
+    
+}
+
+.moreinfo{
+    /* margin-top: 1rem; */
+    background-color: white;
+    border: 2px solid rgb(94, 93, 93);
+    /* margin: 2rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+    /* margin-left: 2rem; */
+    /* flex:1 */
+    /* box-shadow: 5px 5px 10px rgb(66, 65, 65); */
+}
+.moreinfo1{
+    margin-top: 2.8rem;
+    background-color: white;
+    /* background-color: rgb(228, 226, 223); */
+    border: 2px solid rgb(94, 93, 93);
+    /* margin: 2rem; */
+    border-radius: 1rem;
+    padding: 1rem;
+    /* margin-left: 2rem; */
+    /* flex:1 */
+    /* box-shadow: 5px 5px 10px rgb(66, 65, 65); */
+}
+
+.chatbox{
+/* background-color:brown; */
+background-color: rgb(236, 236, 233);
+/* margin-left:7%; */
+border-radius: 1rem;
+padding: 2rem;
+padding-bottom: 0.5rem;
+height: 20.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+box-shadow: 5px 5px 10px rgb(66, 65, 65);
+/* flex:2; */
+/* margin: 1.2rem; */
+width: 100%;
+border: 2px solid black;
+/* box-shadow: 5px 5px 15px black; */
+/* margin-top: 1rem; */
+
+}
+
+.chatmessage{
+background-color:rgb(255, 255, 255);
+border-radius: 0.5rem;
+height: 90%;
+display: flex;
+justify-content: space-between;
+}
+.person1{
+    float: left;
+    margin: 0.5rem;
+    width: 60%;
+    /* background-color: aqua; */
+}
+.person2{
+    float:right;
+    text-align:right;
+    margin-top: 2rem;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* background-color: rgb(96, 159, 89); */
+    /* justify-content: right; */
+   
+}
+.person2div{
+    /* background-color: rgb(0, 253, 169); */
+    /* width: 50%; */
+    width: 70%;
+ text-align: right;
+ float: right;
+ padding: 1rem;
+ display: flex;
+ /* background-color: aqua; */
+ align-items: end;
+ justify-content: right;
+
+
+}
+.person1div{
+    display: flex;
+    /* background-color: yellowgreen; */
+    justify-content:flex-start;
+    align-items: end;
+    margin-bottom: 3rem;
+}
+.inputdiv{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+.inputdiv input{
+width: 100%;
+/* background-color: aqua; */
+border-radius: 1rem;
+font-size: large;
+padding: 0.3rem;
+padding-left: 0.8rem;
+margin-top: 0.5rem;
+text-align: right;
+}
+.arrowimg{
+    margin-top: 0.5rem;
+width: 2.3rem;
+padding-left: 0.5rem;
+}

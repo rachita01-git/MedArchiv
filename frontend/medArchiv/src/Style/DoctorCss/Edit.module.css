@@ -1,0 +1,76 @@
+/*Edit doctor info  kaa  CSS*/
+.editContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1890ff;
+    padding: 30px;
+    width: 100%;
+
+  }
+  
+  .editCard {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .editTitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .formSection {
+    margin-bottom: 20px;
+  }
+  
+  .formSection h3 {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .genderOptions label {
+    margin-right: 15px;
+    font-weight: normal;
+  }
+  
+  .saveButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .saveButton:hover {
+    background-color: #0056b3;
+  }
